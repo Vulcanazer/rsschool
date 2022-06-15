@@ -1,1 +1,1 @@
-# [Anton Kavaliou](https://vulcanazer.github.io/rsscool-cv/CV)
+# [Anton Kavaliou](https://vulcanazer.github.io/rsschool-cv/CV.md)
