@@ -2,50 +2,47 @@
 <head>
     <title>CV - Anton Kovalev</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="CVStyle.css"> 
+    <link rel="stylesheet" type="text/css" href="CVcss.css"> 
 </head>
 <body>
-    <h1 id="name">Anton Kovalev</h1>
-    <h3 id="contacts">My contacts</h3>
+    <header>
+        <img alt = "RS_logo" class = "image" src = "logo.png">
+    <h1 class="name">Anton Kovalev</h1>
+    <h3 class="contacts">My contacts</h3>
         <ul>
             <li><b>Phone: </b>+375....</li>
             <li><b>e-mail: </b>...@gmail.com</li>
             <li><b>GitHub: </b><a href="https://github.com/Vulcanazer">Anton Kavaliou</a></li>
         </ul>
-    <h3 id="myself">About myself:</h3>
-    <p id="text">I like to take new knowledges, espesially i found of technologies, space and history. I'm team worker, calm and stress resistant.</p>
-    <p id="text">I'm easy addict but lazy also, so they think i lose interest quikly.</p>
-    <h3 id="skills">Skills:</h3>
+    </header>
+    <h3 class="myself">About myself:</h3>
+    <p id="text">Advanteges: I like to take new knowledges, espesially i found of technologies, space and history. I'm team worker, calm and stress resistant.</p>
+    <p id="text">Disadvanteges: I'm easy addict but lazy also, so they think i lose interest quikly.</p>
+    <h3 class="skills">Skills:</h3>
         <ul>
             <li>HTML;</li>
             <li>CSS;</li>
             <li>JavaScript;</li>
         </ul>    
-    <h3 id="code">Code example:</h3>
-    <div class="code"><code> <pre><span id="t">
-    &lt ?php</span>
-        <span id="c">echo</span> <span id="r">'Введите Ваш возраст'. "&lt /br >"</span>;
-        <span id="c">echo</span> <span id="t">$_POST</span><span id="r">['vozrast']."&lt br/ >"</span>;
-        <span id="t">$vozrast = $_POST</span><span id="r">['vozrast'] ??</span> <span id="t">false;</span>
-        <span id="if">if </span><span id="t">($vozrast &lt 18)</span>
-        <span id="c">echo</span><span id="r">'Вам меньше 18 лет';</span> 
-        <span id="if">elseif</span> <span id="t">($vozrast == 18)</span>
-        <span id="c">echo</span> <span id="r">'Вам 18 лет';</span>
-        <span id="if">else</span>
-        <span id="c">echo</span> <span id="r">'Вам больше 18 лет';</span>
-        <span id="t">   
-    ?></span>
-    &lt form action="" method="POST">
-     Ваш возраст: &lt input name='vozrast' pattern='[0-9]{1,3}'/ > &lt br/ >
-     &lt input type="submit" value="Отправить" / >
-    & lt /form >
-    </pre></code></div>
-    <h3 id="courses">Courses:</h3>
+    <h3 class="code">Code example:</h3>
+    <div class ="code-example"><code> 
+      function 1LettersToUpperCase(str){<br>
+        let arr = str.split('');<br>
+        for(let i = 0; i < str.length; i++){
+            if (arr[i] === ' ' || arr[i] === '.' || arr[i] === '_'){<br>
+                arr[i+1] = arr[i+1].toUpperCase;<br>
+            }<br>
+        str = arr.join('');<br>
+        }<br>
+        return str;<br>
+    } 
+    </code></div>
+    <h3 class="courses">Courses:</h3>
         <ul>
             <li>RSScool;</li>
             <li>HTML5 и CSS3 от 0 до Guru;</li>
         </ul>
-    <h3 id="languages">Languages:</h3>
+    <h3 class="languages">Languages:</h3>
         <ul>
             <li>Russian;</li>
             <li>Belarus;</li>
